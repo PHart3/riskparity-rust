@@ -21,7 +21,7 @@ This library is essentially self-contained, only using external crates for csv p
    The risk matrix is the lower part of a symmetric matrix, with each row a bare *space-separated* list of floats.
    (One technical point not addressed in the above paper: to ensure convergence, the vector $Rx$ should be nonzero 
    for every nonzero $x \geq 0$, so that Tseng's boundedness condition on sublevel sets is satisfied.)
-   See the current `./input/` folder for examples.
+   See the current [`./input/`](input) folder for examples.
    
    The main function will use these two csv files as inputs to the solver.
    
